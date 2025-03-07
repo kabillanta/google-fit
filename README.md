@@ -1,6 +1,6 @@
-# miband
+# Google Fit
 
-A new Flutter project.
+A Flutter project which retrieves the google fitness data using API.
 
 ## Getting Started
 
