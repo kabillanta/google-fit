@@ -68,7 +68,7 @@ class _SignInScreenState extends State<SignInScreen> {
 
   Future<void> _fetchFitnessData(String accessToken) async {
     const serverUrl =
-        'http://172.16.70.13:5000/fetch-fitness-data'; // Update to your Flask server URL
+        'http://10.0.2.2:5000/fetch-fitness-data'; // Update to your Flask server URL
 
     try {
       final response = await http.post(
