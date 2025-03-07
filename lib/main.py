@@ -8,8 +8,7 @@ app = Flask(__name__)
 def fetch_fitness_data():
     data = request.json
     access_token = data.get('access_token')
-
-    now = datetime.datetime.utcnow()
+    now = datetime.datetime.now(datetime.timezone.utc)
     start_of_day = datetime.datetime(now.year, now.month, now.day)
     start_time_millis = int(start_of_day.timestamp() * 1000)
     end_time_millis = int(now.timestamp() * 1000)
