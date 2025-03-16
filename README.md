@@ -1,6 +1,6 @@
 # Google Fit
 
-A Flutter project which retrieves the google fitness data using API.
+A Flutter project retrieves the fitness data using Google Fitness API.
 
 ## Getting Started
 
